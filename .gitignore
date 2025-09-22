@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tgz
+.env
+.env.local
+.env.production
+.env.development
+.DS_Store
+*.log
+coverage/
+.nyc_output/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
