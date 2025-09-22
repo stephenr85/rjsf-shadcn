@@ -3,14 +3,17 @@
  * Specialized form widgets for healthcare and medical applications
  */
 
-// For now, just export placeholder functions
-export const MeasurementWidget = () => null;
+export { MeasurementWidget } from './measurement-widget';
+
+// Placeholder for vital signs - to be implemented
 export const VitalSignsWidget = () => null;
 
 // Widget registry for easy import
+import { MeasurementWidget } from './measurement-widget';
+
 export const medicalWidgets = {
-  MeasurementWidget: MeasurementWidget,
-  VitalSignsWidget: VitalSignsWidget,
+  MeasurementWidget,
+  VitalSignsWidget,
 };
 
 // Default export
